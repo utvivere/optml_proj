@@ -1,2 +1,2 @@
 # optml_proj
-repo of the projection for optml
+repo of the project for optml
