@@ -1,9 +1,9 @@
 # optml_proj
-way to use ##model.py##:
+way to use `model.py`:
 replace loss_landscape_anim/model.py with the provided version, then call:
 ```sh
 loss_landscape_anim(
-    n_epochs,
+    n_epochs=300,
     datamodule=MNISTDataModule(),
     model = ResNet(input_channels=1, num_classes=10, learning_rate=0.001, \
                    num_blocks=5, optimizer="adam", gpus=1 if torch.cuda.is_available() else 0),
